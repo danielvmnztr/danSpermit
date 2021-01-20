@@ -28,18 +28,18 @@ async def _(event):
             return
         set_key(PMMESSAGE_CACHE, event.chat_id, event.id)
         PM = (
-            "Hello. You are accessing the availabe menu of my master, "
+            "Hello. Kamu sedang mengakses menu makanan, bukan deng "
             f"{mention}.\n"
-            "__Let's make this smooth and let me know why you are here.__\n"
-            "**Choose one of the following reasons why you are here:**\n\n"
-            "`a`. To chat with my master\n"
-            "`b`. To spam my master's inbox.\n"
-            "`c`. To enquire something\n"
-            "`d`. To request something\n"
+            "__Bercanda saya hehehe.__\n"
+            "**Pilih salah satu pilihan dibawah ini:**\n\n"
+            "`a`. Pengen chat sama boss AL\n"
+            "`b`. Pengen minjem duid.\n"
+            "`c`. Ada kepentingan bisnis\n"
+            "`d`. Ada udang batu dibalik\n"
         )
         ONE = (
-            "__Okay. Your request has been registered. Do not spam my master's inbox.You can expect a reply within 24 light years. He/She is a busy man, unlike you probably.__\n\n"
-            "**⚠️ You will be blocked and reported if you spam nibba. ⚠️**\n\n"
+            "__Okay. Permintaan kamu sudah saya simpan. Jangan spam Boss saya. Tunggu sebentar beberapa menit atau beberapa jam. Boss saya orang sibuk, gak kayak kamu, jomblo pula.__\n\n"
+            "**⚠️ Kamu akan otomatis di block jika masih ngeyel spam. ⚠️**\n\n"
         )
         TWO = " `███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ `\n\n**So uncool, this is not your home. Go bother someone else. You have been blocked and reported until further notice.**"
         THREE = "__Okay. My master has not seen your message yet.He/She usually responds to people,though idk about retarted ones.__\n __He'll respond when he/she comes back, if he/she wants to.There's already a lot of pending messages😶__\n **Please do not spam unless you wish to be blocked and reported.**"
