@@ -248,7 +248,7 @@ if Config.PRIVATE_GROUP_ID is not None:
                         warns=warns,
                     )
                     + "\n\n"
-                    + "**Kirim** `/start` **biar boss ku tau apa tujuanmu.**"
+                    + "**Kirim** `/start` **biar boss saya tau apa tujuanmu.**"
                 )
             else:
 
